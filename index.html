@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/1.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<div class="head">
+		<h6  class="name md"><a href="index.html">Template</a></h6>
+		<div class="name small"><a href="index.html">TL</a></div>
+		<nav class="menu small">&#9776</nav>
+		<div class="bag"><a href="4.html"><img src="images/bag.png" alt="bag"><span class="priceOfItems"></span></a></div>
+		<nav class="menu">
+			<ul class="menuList">
+				<li class="menuItem">Women</li>
+				<li class="menuItem">Men</li>
+				<li class="menuItem">Handbags</li>
+				<li class="menuItem">Accessories</li>
+				<li class="menuItem">Sale</li>
+				<li class="menuItem">New Arrivals</li>
+				<li class="menuItem">Clearance</li>
+				<li class="menuItem">Store Locator</li>
+				<li class="menuItem">
+					<input type="text" class="inp large" placeholder="Style Name">
+					<input type="text" class="inp middle searchFild" placeholder="Style Name">
+					<input type="text" class="inp small" placeholder="Style Name">
+					<img src="images/icoSearch.png" alt="" class="icon middle">
+				</li>
+			</ul>
+		</nav>
+		</div>
+		<div class="slider small anim">
+			<a href="2.html"></a>
+		</div>
+		<div class="wrapSlider large">
+		 <div class="slider large anim">
+		 	<a href="2.html"></a>
+		 </div>
+		 <div class="leftArrow"><img src="images/arrowLeft.png" alt=""></div>
+		<div class="rightArrow"><img src="images/arrowRight.png" alt=""></div>
+		</div>
+		 <div class="slider middle anim ">
+		 	<a href="2.html"></a>
+		 </div>
+		 <section class="bottom_of_Slider">
+		 	<div class="state1"></div>
+		 	<div class="state2"></div>
+		 	<div class="state3"></div>
+		 </section>
+	</header>
+	<main>
+		<div class="pictures">
+			<div class="nike">
+				<a href="3.html"></a>
+			</div>
+			<div class="rightImg middle">
+				<a href="2.html"></a>
+			</div>
+			<div class="rightImg large">
+				<a href="2.html"></a>
+			</div>
+		</div>
+		<hr>
+		<div class="text">New arrivals</div>
+		<div class="content">
+		</div>
+		<div class="button"><a href="2.html">All arivals</a></div>
+	</main>
+	<hr>
+	<footer>
+		<section class="top_of_foot">
+		<table class="foot">
+			<tr>
+				<th width="55%">Quick Links</th>
+				<th>Customer Care</th>
+			</tr>
+			<tr>
+				<td>Store locator</td>
+				<td>Customer service</td>
+			</tr>
+			<tr>
+				<td>Gift cards</td>
+				<td>Track my order</td>
+			</tr>
+			<tr>
+				<td>Size guide</td>
+				<td>Return policy</td>
+			</tr>
+			<tr>
+				<td>About us</td>
+				<td>Shipping & delivery</td>
+			</tr>
+			<tr>
+				<td>Support</td>
+				<td>Contact us</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Careers</td>
+			</tr>
+		</table>
+		<hr class="small">
+		<div class="contacts">
+			<div class="twit">
+				<p><b>Questions</b></p>
+				<div><img src="images/twi_ico.png" alt=""> Tweet us @<b>template</b></div>
+			</div>
+			<div class="phone">
+				<p><b>Order by phone</b></p>
+				<div>8-800-409-47-12</div>
+			</div>
+			<div class="footText large">
+				<p>We have our own delivery service which</p>
+				<p>operates in 23 major European cities. Delivery</p>
+				<p>time - 3-5 days.</p>
+			</div>
+			<div class="icons middle">
+				<img src="images/fb.png" alt="" class="fb">
+				<img src="images/twi.png" alt="" class="twi">
+			</div>
+			<div class="icons large">
+				<img src="images/fb.png" alt="" class="fb">
+				<img src="images/twi.png" alt="" class="twi">
+			</div>
+		</div>
+		</section>
+		<hr>
+		<section class="second_part_of_foot md">
+		<div class="foot2">
+			<span class="corp first">@ 2010-2015, The Template Group inc.</span>
+			<span class="review">Share<img src="images/share.png" alt=""></span>
+			<span class="addInfo">
+			<span class="first">Legal notice</span>
+			<span>Privacy policy</span>
+			<span>Site map</span>
+			</span>
+		</div>
+		</section>
+		<section class="second_part_of_foot small">
+		<div class="foot2">
+			<span class="first">Legal notice</span>
+			<span>Privacy policy</span>
+			<span>Site map</span>
+			<span class="icons small">
+				<img src="images/fb.png" alt="" class="fb">
+				<img src="images/twi.png" alt="" class="twi">
+			</span>
+		</div>
+		<hr class="footHr">
+		<div class="foot2">
+			<span class="corp first">@ 2010-2015, The Template Group inc.</span>
+				<span class="review">Share<img src="images/review.png" alt=""></span>
+		</div>
+		</section>
+	</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+	<script src="js/js_for_template.js"></script>
+	<script src='data/catalog.js'></script>
+	<script class="template" type="text/template"> 
+		<%for(let i=0; i<mas.length; i++){%>
+			<% if(i<num_of_items_small){%>
+			<div class='contDiv'>
+			<%}%>
+			<% if(i>=num_of_items_small && i<num_of_items_middle){%>
+			<div class='contDiv md'>
+			<%}%>
+			<% if(i>=num_of_items_middle && i<num_of_items_large) {%>
+			<div class='contDiv large'>
+			<%}%>
+			<% if(i>=num_of_items_large){%>
+			<div class='contDiv md' style="display: none">
+			<%}%>
+			<div class="itemImages">
+				<% if(i%2==0){%>
+				<a href="3.html" class="linkItem">
+				<%}%>
+				<% if(i%2==1){%>
+				<a href="5.html" class="linkItem">
+				<%}%>
+				<img src=<%=mas[i].thumbnail%> width='158' height='228' alt="" class="small itemImg">
+				<img src=<%=mas[i].thumbnail%> width='204' height='289' alt="" class="middle itemImg">
+				<img src=<%=mas[i].thumbnail%> alt="" class="large itemImg">
+				<p>View Item</p>
+				</a>
+				<% if(mas[i].hasNew){%>
+				<img src="images/new.jpg" alt="new" class="new">
+				<%}%>
+			</div>	
+				<p class="caption"><%=mas[i].title%></p>
+				<% if(mas[i].price){%>
+				<%if(mas[i].discountedPercent){%>
+				<p class="price">
+				<span>£<%=mas[i].discountedPrice+" -"+mas[i].discountedPercent+"%"%></span>
+				<%}%>
+				<% if(mas[i].discountedPrice){%>
+				<p class="price">£<%=mas[i].discountedPrice.toFixed(2)%></p>
+				<%}%>
+				<% if(mas[i].price && !mas[i].discountedPrice){%>
+				£<%=mas[i].price.toFixed(2)%></p>
+				<%}%>
+				<%}%>
+				<% if(!mas[i].price && !mas[i].discountedPrice){%>
+				<p class="price"><%=mas[i].placeholder%></p>
+				<%}%>
+		</div>
+		<%}%>
+	</script>
+	<script src="js/common.js"></script>
+	<script src="js/start.js"></script>
+</body>
+</html>
